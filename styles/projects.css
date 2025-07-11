@@ -6,14 +6,20 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+/* 
 .raleway-normal> {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+} */
 
+.raleway-ralewais {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* shared styles */
 .button-primary{
     background-color: #4E47FF;
@@ -31,7 +37,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0px 150px;
    
 }
 .nav-title{
@@ -162,6 +168,7 @@ main p{
 .review-point{
 
     align-items: center;
+    margin-top: 137px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 42px;
@@ -287,19 +294,19 @@ main p{
         font-size: 18px;
         margin-top: 8px;
         }
-    /* 
+    
     footer ul{
         display: flex;
         justify-content: space-around;
         text-decoration: none;
     }
-   .nav ul{
+   /* .nav ul{
     display: flex;
     justify-content: space-between;   }
     footer nav li{
         text-decoration: none;
-    } */
-/* footer nav li a {
+    } 
+ footer nav li a {
     text-decoration: none;
      justify-content: space-between;
 }
@@ -318,6 +325,10 @@ footer nav li{
   footer ul li{
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin-right: 35px;
+    color: #8987A1;
    
+  }
+  .footer-color{
+   color: #8987A1;
   }
