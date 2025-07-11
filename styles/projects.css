@@ -6,13 +6,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
-/* 
-.raleway-normal> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+
 
 .raleway-ralewais {
   font-family: "Raleway", sans-serif;
@@ -260,7 +254,7 @@ main p{
  }
  .contact-form label {
       font-size: 14px;
-      /* color: #333; */
+     
       margin-bottom: 5px
  }
  .contact-form input,
@@ -277,10 +271,14 @@ main p{
     /* footer sections here */
 
     footer div{
-        background-color:white;
+        background-color:#FFFFFF;
         /* align-items: center; */
         text-align: center;
         padding: 100px 450px;
+        max-width: 1440px;
+        height: 428;
+        margin: 0 auto;
+        border-top: .10px solid #000000;
     }
 
     footer div h1{
@@ -300,25 +298,7 @@ main p{
         justify-content: space-around;
         text-decoration: none;
     }
-   /* .nav ul{
-    display: flex;
-    justify-content: space-between;   }
-    footer nav li{
-        text-decoration: none;
-    } 
- footer nav li a {
-    text-decoration: none;
-     justify-content: space-between;
-}
-footer nav{
-    margin-top: 20px;
-    justify-content: space-between;
-}
-footer nav li{
-    display: inline;
-    margin-right:30px ;
-   
-} */
+  
   footer ul li a{
     text-decoration: none;
   }
