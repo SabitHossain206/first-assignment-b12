@@ -61,6 +61,7 @@ nav ul li{
   background-image: url('../Assets/Hero-bg.png');
   width: auto;
   height: auto;
+  margin-top: 0;
 }
 header div a button{
    background-color: #4E47FF;
@@ -219,4 +220,104 @@ main p{
     margin-left: 12px;
 
  }
- 
+ /* contacts information */
+ .contact-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 ;
+    max-width: 1140px ;
+    /* height: 632px; */
+    margin:0 auto ;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+ }
+ .contact-text{
+    font-weight: bold;
+    font-size: 97px;
+    /* margin-left: 0; */
+     flex: 1;
+      max-width: 528px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+ }
+ .contact-form{
+      flex: 1;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+
+ }
+ .contact-form label {
+      font-size: 14px;
+      /* color: #333; */
+      margin-bottom: 5px
+ }
+ .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 20px 32px;
+      font-size: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      resize: none;
+      box-sizing: border-box;
+    }
+
+    /* footer sections here */
+
+    footer div{
+        background-color:white;
+        /* align-items: center; */
+        text-align: center;
+        padding: 100px 450px;
+    }
+
+    footer div h1{
+        font-weight: bolder;
+        font-size: 100px;
+        color: #4E47FF;
+        margin-bottom: 0;
+    }
+    footer div p{
+        font-weight: ;
+        font-size: 18px;
+        margin-top: 8px;
+        }
+    /* 
+    footer ul{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+   .nav ul{
+    display: flex;
+    justify-content: space-between;   }
+    footer nav li{
+        text-decoration: none;
+    } */
+/* footer nav li a {
+    text-decoration: none;
+     justify-content: space-between;
+}
+footer nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+footer nav li{
+    display: inline;
+    margin-right:30px ;
+   
+} */
+  footer ul li a{
+    text-decoration: none;
+  }
+  footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+   
+  }
